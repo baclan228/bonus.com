@@ -33,3 +33,35 @@ a{
 .header li{
 	display: block;
 }
+
+.conntent{
+	width: 700px;
+	background: #596681;
+	margin-left: 300px;
+	margin-top: 20px;
+	border-radius: 5px;
+	height: 600px;
+}
+
+.conntent h4{
+	color: #ffffff;
+	padding: 30px;
+	text-align: center;
+}
+
+#money{
+	margin-left: 250px;
+	width: 200px;
+	height: 30px;
+	border-radius: 3px;
+	border:0px;
+}
+
+#submit{
+	margin-left: 250px;
+	width: 200px;
+	height: 30px;
+	background: #80ff83;
+	border:0px;
+	border-radius: 3px;
+}
