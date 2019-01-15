@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
@@ -16,17 +16,7 @@
 </head>
 <body>
 <!---Шапка-->
-<header class="header" class="close">
-	<ul>
-		<li>
-			<span><b>Bonus.ru</b></span>
-			<a href="index.html">Бонус</a>
-			<a href="box.html">Сундуки</a>
-			<a href="payments.html">Выплаты</a>
-			<a href="account.html">Профиль</a>
-		</li>
-	</ul>
-</header>
+<?php include 'block/header.php'; ?>
 <div id="panel">
 	<img src="img/1.png" class="close" id="men">
 	<content>
