@@ -2,18 +2,20 @@
 	padding: 0px;
 	margin: 0px;
 	font-family: 'Roboto', sans-serif;
-  	position: relative;
 }
+
+
 
 /*Шапка*/
 .header{
-	padding: 30px;
+	padding: 20px;
 	background: #596681;
 	width: 100%;
 	border-bottom: 5px solid #fd9a90;
 	box-shadow: 0 0 8px;
 	position: fixed;
 	top: 0px;
+	display: flex;
 }
 
 .header ul{
@@ -25,20 +27,34 @@
 }
 
 
-.header span{
+.logo{
 	color: #fff;
-	margin-right: 350px;
+	/*margin-right: 350px;*/
 	font-size: 18px;
 	text-transform: uppercase;
+	flex: 0;
 }
 
-.header a{
+.logo a{
 	text-decoration: none;
 	color: #fff;
-	padding: 30px;
+	padding: 20px;
 	text-align: center;
 	transition: 1s;
-	border-radius: 3px;
+	font-size: 18px;
+}
+
+.raz{
+	flex:1;
+	text-align: center;
+}
+
+.raz a{
+	text-decoration: none;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	transition: 1s;
 	font-size: 18px;
 }
 
@@ -73,7 +89,7 @@
 	width: 700px;
 	float: none;
 	margin-left: 300px;
-	margin-top: 100px;
+	margin-top: 80px;
 	border-radius: 3px; 
 	height: 1000px;
 	box-shadow: 0 0 8px;
