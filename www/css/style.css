@@ -1,67 +1,272 @@
 *{
-	padding: 0;
-	margin: 0;
-	font-style: 20px;
-	font-family: Arial;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+  	position: relative;
 }
 
-a{
-	text-decoration: none;
-	color: #FFFFFF;
-}
-
+/*Шапка*/
 .header{
 	padding: 30px;
 	background: #596681;
+	width: 100%;
 	border-bottom: 5px solid #fd9a90;
+	box-shadow: 0 0 8px;
+	position: fixed;
+	top: 0px;
 }
 
-.header span{
-	color: #FFFFFF;
-	margin-right: 400px;
-}
-
-.header a{
-	padding: 30px;
-}
-
-.header a:hover{
-	background: #80ff83;
-	transition: 3s;
+.header ul{
+	
 }
 
 .header li{
 	display: block;
 }
 
-.conntent{
-	width: 700px;
-	background: #596681;
-	margin-left: 300px;
-	margin-top: 20px;
-	border-radius: 5px;
-	height: 600px;
+
+.header span{
+	color: #fff;
+	margin-right: 350px;
+	font-size: 18px;
+	text-transform: uppercase;
 }
 
-.conntent h4{
-	color: #ffffff;
+.header a{
+	text-decoration: none;
+	color: #fff;
+	padding: 30px;
+	text-align: center;
+	transition: 1s;
+	border-radius: 3px;
+	font-size: 18px;
+}
+
+.header img{
+	width:20px; 
+    height:20px; 
+    display:none;
+    vertical-align:bottom;
+}
+
+.menu{
+	display: none;
+}
+
+.icon-close{
+	display: none;
+}
+
+.header a:hover{
+	background: #80ff83;
+}
+
+#prof img{
+	float: right;
+	margin: 0px 900px auto;
+	margin-top: 80px;
+	position: absolute;
+}
+/*Центр*/
+.center{
+	background: #596681;
+	width: 700px;
+	float: none;
+	margin-left: 300px;
+	margin-top: 100px;
+	border-radius: 3px; 
+	height: 1000px;
+	box-shadow: 0 0 8px;
+}
+
+.center h4{
+	text-align: center;
+	color: #fff;
+	padding: 30px;
+}
+
+#sunduk{
+	background: url(../img/3.png) no-repeat top center;
+	width: 250px;
+	height: 200px;
+	border-radius: 3px;
+	border:0px;
+	opacity: 1;
+	transition: 3s;
+	margin: 30px 40px auto;
+}
+
+#pole_money{
+	width: 300px;
+	height: 30px;
+	border:0px;
+	border-radius: 3px;
+	margin: 20px 200px auto;
+	margin-bottom: 20px;
+}
+
+#sunduk:hover{
+	cursor: pointer;
+	opacity: 0.5;
+	transition: 3s;
+}
+
+#payer{
+	padding: 7px;
+	border-radius: 4px;
+	border: 1px solid #80ff83;
+	width: 200px;
+	color: #fff;
+	margin-left: 230px; 
+}
+
+#password{
+	padding: 7px;
+	border-radius: 4px;
+	border: 1px solid #80ff83;
+	color: #fff;
+	width: 200px;
+	margin-left: 230px;
+	margin-top: 10px;
+}
+
+#submit{
+	padding: 7px;
+	border-radius: 4px;
+	border: 1px solid #80ff83;
+	color: #fff;
+	width: 215px;
+	margin-left: 230px;
+	margin-top: 10px;
+	cursor: pointer;
+	background: #80ff83;
+	transition: 1s;
+	font-size: 20px;
+	margin-bottom: 30px;
+	border-bottom: 3px solid #fd9a90;
+}
+
+#payer:hover{
+	box-shadow: 0 0 8px;
+}
+
+#password:hover{
+	box-shadow: 0 0 8px;
+}
+
+#submit:hover{
+	background: #9dff9f;
+	box-shadow: 0 0 8px;
+}
+
+.reklama{
+	margin: 0px 120px auto;
+	margin-bottom: 30px;
+	display: none;
+}
+
+.reklama img{
+	background: #fd9a90;
+}
+
+/*Подвал*/
+.footer{
+	background: #596681;
+	margin-top: 20px;
+	height: 60px;
+	margin-bottom: 0px;
+}
+
+
+
+#panel{
+position: fixed;
+top: 20px;
+left: 10px;
+cursor: pointer;
+border-radius: 0 10px 10px 0;
+display: none;
+}
+
+#panel li{
+	display: block;
+}
+
+#panel a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
 	padding: 30px;
 	text-align: center;
 }
 
-#money{
-	margin-left: 250px;
-	width: 200px;
-	height: 30px;
-	border-radius: 3px;
-	border:0px;
+#panel a:hover{
+	background: #84a2b1;
 }
 
-#submit{
-	margin-left: 250px;
+.open{
+width: 500px;
+min-height: 100px;
+font-size: 20px;
+}
+
+.close{
+width: 50px;
+min-height: 30px;
+font-size: 0;
+}
+
+content{
+display: none;
+background: #607d8b;
+color: #444;
+margin-top: 15px;
+margin-left: 0px;
+}
+
+#timer li{
+	display: block;
+}
+
+#timer{
+
+text-align: center;
+color: #333;
+font-family: 'Roboto Slab', serif;
+font-size: 30px;
+cursor: default;
+}
+ 
+#timer div{
+display: inline;
+}
+
+#timer span{
+	
+}
+
+#pol{
+	display: none;
 	width: 200px;
-	height: 30px;
-	background: #80ff83;
-	border:0px;
-	border-radius: 3px;
+	height: 60px;
+	background: red;
+	margin: 0px 250px auto;
+	transition: 3s;
+	margin-bottom: 30px;
+}
+
+#sunduk_ico{
+	width: 20px;
+	height: 18px;
+	margin-right: 10px;
+}
+
+#dengi_ico{
+	width: 20px;
+	height: 18px;
+	margin-right: 10px;
+}
+
+#form_log{
+	margin: 0 auto;
 }

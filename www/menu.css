@@ -1,0 +1,21 @@
+#pok{
+	width: 200px;	
+	background: red;
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+}
+
+#zak{
+	width: 200px;
+	background: red;
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+}
+
+#text{
+	background: green;
+	width: 200px;
+	text-align: center;
+}

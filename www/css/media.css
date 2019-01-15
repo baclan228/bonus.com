@@ -1,0 +1,33 @@
+@media only screen and (max-width: 992px){
+	.header{width: auto; background: red; } 
+	.header span{margin-right: 100px; }
+	.header a{} 
+}
+
+@media only screen and (max-width: 1024px){ /*Под телефон*/
+	.header{width: 100%; background: #596681; padding: 20px; text-transform: uppercase; top: 0px; position: none;}
+	.header img{display: inline-block; vertical-align:bottom; height:50px; width: 50px; position: absolute; cursor: pointer; float: right; margin: 0px 300px auto;}
+	.header span{font-size: 40px; text-align: center; margin: 0px 400px auto; }
+	.header a{padding: 20px; font-size: 45px; display: none;}
+	.center{width: 700px; height: 8000px; margin-left: 0px; top: 200px; border-radius: 0px; margin: 20px auto}
+	#payer{width: 400px; height: 50px; margin: 10px 150px auto;}
+	#password{width: 400px; height: 50px; margin: 10px 150px auto;}
+	#submit{width: 415px; height: 50px; margin: 10px 150px auto; margin-bottom: 30px;}
+	.reklama{margin: 0px 120px auto;}
+	#panel{display: block;}
+}
+
+@media only screen and (min-width: 1920px){/*Под телевизор*/
+	.header{background: #596681; width: auto;}
+	.header span{font-size: 40px; text-align: center; margin: 0px 30px auto;}
+	.header a{padding: 30px; font-size: 35px;}
+	.center{width: 1200px; height: 768px; margin-left: 0px; margin-top: 0px; border-radius: 0px; margin: 20px auto}
+	#payer{width: 600px; height: 30px; margin: 10px 300px auto;}
+	#password{width: 600px; height: 30px; margin: 10px 300px auto;}
+	#submit{width: 615px; height: 50px; margin: 10px 300px auto; margin-bottom: 30px;}
+}
+
+/*@media only screen and (min-height: 480px){
+	.header{width: auto; background: orange; padding: 20px;}
+}
+
